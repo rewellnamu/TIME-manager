@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label class="theme-switch">
+  <input type="checkbox" id="themeToggle" />
+  <span class="slider"></span> 
+</label>
+
+  <div class="container">
+    <h1>DAILY PLANNER</h1>
+    <div class="input-group">
+      <input type="text" id="todoInput" placeholder="Enter a new task">
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="todoList"></ul>
+    <div class="task-stats">
+  <p><span id="completedCount">0</span> / <span id="totalCount">0</span> tasks completed</p>
+  <div class="progress-bar">
+    <div class="progress" id="progress"></div>
+  </div>
+</div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
