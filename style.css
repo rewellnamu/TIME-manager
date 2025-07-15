@@ -157,6 +157,7 @@ body {
 }
 
 .slider {
+  margin-right: 100px;
   width: 40px;
   height: 20px;
   background-color: #ccc;
@@ -172,7 +173,7 @@ body {
   left: 3px;
   height: 14px;
   width: 14px;
-  background-color: white;
+  background-color: rgb(12, 4, 4);
   border-radius: 50%;
   transition: transform 0.3s;
 }
@@ -238,7 +239,7 @@ body.dark .task-stats {
 }
 
 .task-stats p::before {
-  content: "✔️";
+  content: "";
   font-size: 1.3em;
   margin-right: 6px;
   vertical-align: middle;
@@ -247,8 +248,8 @@ body.dark .task-stats {
 
 #completedCount {
   color: #00b894;
-  font-size: 1.5em;
-  font-weight: 700;
+  font-size: 1.0em;
+  font-weight: 60;
   margin: 0 2px;
   transition: color 0.3s;
   font-family: fantasy;
@@ -260,8 +261,8 @@ body.dark #completedCount {
 
 #totalCount {
   color: #636e72;
-  font-size: 1.1em;
-  font-weight: 600;
+  font-size: 1.0em;
+  font-weight: 60;
   font-family: fantasy;
   margin: 0 2px;
   transition: color 0.3s;
